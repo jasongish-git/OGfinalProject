@@ -12,6 +12,7 @@ ul {
 
 body {
     margin: 0;
+    font-family: 'Puritan';
 }
 
 #navbar {
@@ -26,7 +27,7 @@ body {
     float: left;
     text-align: center;
     font-size: 1em;
-    font: 'Russo One';
+    font-family: 'Russo One';
     color: #ffffff;
     margin: 5px;
     padding: 10px;
@@ -37,4 +38,53 @@ body {
     margin: 0;
     height: 50px;
     width: 80px;
+}
+
+#navbar a:hover {
+    background-color: gray;
+}
+
+h1 {
+    font-family: 'Russo One';
+    text-align: center;
+    color: #f05123;
+}
+
+h2 {
+    font-family: 'Russo One';
+    text-align: center;
+    color: #f7911e;
+}
+
+header {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: .5px;
+    margin: 5px;
+}
+
+.home-our-story {
+    display: inline-flex;
+    color: #2b2c79;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.our-story-img {
+    display: flex;
+    height: 100px;
+    width: 150px;
+}
+
+.caption {
+    font-family: 'Merienda';
+}
+
+section p {
+    text-align: center;
 }

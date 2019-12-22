@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Obscuratus Gaming</title>
     <link rel="stylesheet"  href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Puritan:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
+        <img src= "img/controller.jpg" alt="video game controller image">
         <ul>
             <li><a href="home.html">Home</a></li> 
             <li><a href="about.html">About</a></li>
@@ -17,32 +21,40 @@
             <li><a href="contacts.html">Contacts</a></li>
         </ul> 
     </nav>
-    <header>
-        <h1>Obscuratus Gaming's Contacts</h1>
-        <img src= "img/PHOTO" alt="placeholder image">
-    </header>
-    <div>
-        <p>CONTACTS</p>
-        <P>LIST OF CONTACTS AND THEIR INFO</P>
-        <img src= "img/PHOTO" alt="placeholder image">
-    </div>
-    <div>
-        <P>CONTACT REQUEST FORM</P>
-        <img src= "img/PHOTO" alt="placeholder image">
+    <div id="contacts-page">
+    <header id="contacts-header">
+        <h1>Contacts</h1>
         <ul>
-            <li>Name</li> 
-            <li>E-mail</li>
-            <li>Phone</li>
-            <li>Mailing Street Address</li>
-            <li>State</li>
-            <li>Zip Code</li>
-            <li>Message</li>
-            <button>Submit</button>
+            <li><h2>Our Staff</h2></li>
+            <li><em>Bill Lumbergh</em>, Store Manager: <a href="mailto:B.Lumbergh.Obscuratus@gmail.com">B.Lumbergh.Obscuratus@gmail.com</a></li>
+            <li><em>Ned Ryerson</em>, Sales Agent: <a href="mailto:N.Ryerson.Obscuratus@gmail.com">N.Ryerson.Obscuratus@gmail.com</a></li>
+            <li><em>Milton Waddams</em>, Security: <a href="mailto:M.Waddams.Obscuratus@gmail.com">M.Waddams.Obscuratus@gmail.com</a></li>
         </ul>
+    </header>
+    <div class="contacts-img"><img src= "img/Amy.jpg" alt="Amy Facca, CEO" height="290" width="190">
     </div>
-    <div>
-        <p>FINAL MESSAGE</p>
-        <P>HAVE FUN... INVEST IN OUR DREAMS</P>
+    <section class="contacts-section1">
+        <ul>
+            <li>We appreciate your business and sponsorship!</li><br>
+            <li><em> -Amy Facca</em>, CEO</li><br>
+            <li><em>E-mail:</em><a href="mailto:Obscuratus@gmail.com">Obscuratus@gmail.com</a></li>
+            <li><em>Phone:</em>518-867-5309</li>
+        </ul>
+    </section>
+    <section class="contacts-section2">
+        <h2>Contact Request Form</h2>
+        <ul id="contacts-request-form">
+            <li><label for="customerName">Name: </label><input type="text" name="customerName" id="customerName"></li>
+            <li><label for="customerEmail">Email: </label><input type="text" name="customerEmail" id="customerEmail"></li>
+            <li><label for="customerPhone">Phone: </label><input type="text" name="customerPhone" id="customerPhone"></li>
+            <li><label for="customerAddress">Address: </label><input type="customerAddress" name="customerAddress" id="item"></li>
+            <li><label for="customerState">State: </label><input type="text" name="customerState" id="customerState"></li>
+            <li><label for="customerZipCode">Zip Code: </label><input type="text" name="customerZipCode" id="customerZipCode"></li>
+            <li><label for="customerRequestMessage">Message: </label><input type="customerRequestMessage" name="item" id="customerRequestMessage"></li>
+            <br>
+            <li><button>Submit</button></li>
+        </ul>
+    </section>
     </div>
     <footer>FOOTER</footer>
 </body>

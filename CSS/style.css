@@ -56,6 +56,12 @@ h2 {
     color: #f7911e;
 }
 
+h3 {
+    font-family: 'Russo One';
+    text-align: center;
+    color:  #ffffff;
+}
+
 header {
     text-align: center;
 }
@@ -87,4 +93,74 @@ header {
 
 section p {
     text-align: center;
+}
+
+#contacts-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: .5px;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#contacts-header {
+    display: grid;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.contacts-section1 {
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+.contacts-section2 {
+    display: grid;
+    margin: 0;
+    padding: 5px;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.contacts-img {
+    display: flex;
+    margin: 0;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: 5px solid #f7911e;
+    max-width: 200px;
+    max-height: 300px;
+    align-content: center;
+}
+
+#contacts-request-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: .5px;
+}
+
+em {
+    text-decoration: underline;
+    margin: 5px;
+    color: #f05123;
+}
+
+header a, section a {
+    color: white;
 }

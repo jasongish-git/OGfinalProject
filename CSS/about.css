@@ -69,33 +69,15 @@ h2 {
 h3 {
     font-family: 'Russo One';
     text-align: center;
-    color:  #ffffff;
+    color: midnightblue;
+    border: 2px;
+    border-color: midnightblue;
 }
 
 header {
     text-align: center;
 }
 
-/* playing with grid 
-#about-intro-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: .5px;
-  margin: 5px;
-}
-
-#about-intro-text {
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-#about-intro-image {
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-*/
 
 #footer-image {
     width: 100%;

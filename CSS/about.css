@@ -8,6 +8,11 @@ html {
     
 ul {
     list-style: none;
+    text-align: center;
+}
+
+li  {
+    display: inline;
 }
 
 body {
@@ -18,26 +23,31 @@ body {
 #navbar {
     background-color: #000000;
     width: 100%;
-    height: 50px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 #navbar ul li a {
     text-decoration: none;
-    text-decoration-color: #ffffff;
-    float: left;
     text-align: center;
     font-size: 1em;
     font-family: 'Russo One';
     color: #ffffff;
     margin: 5px;
-    padding: 10px;
+    padding-right: 10px;
 }
 
-#navbar img {
+#nav-image {
     float: left;
     margin: 0;
     height: 50px;
-    width: 80px;
+    width: 100px;
+    background-image: url("../img/Logo-Transparent-White-2.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
 }
 
 #navbar a:hover {
@@ -59,30 +69,21 @@ h2 {
 h3 {
     font-family: 'Russo One';
     text-align: center;
-    color:  #ffffff;
+    color: midnightblue;
+    border: 2px;
+    border-color: midnightblue;
 }
 
 header {
     text-align: center;
 }
 
-/* playing with grid 
-#about-intro-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: .5px;
-  margin: 5px;
-}
 
-#about-intro-text {
-    grid-row-start: 1;
-    grid-row-end: 2;
+#footer-image {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/Moon\ Gate.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: auto;
 }
-
-#about-intro-image {
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-*/

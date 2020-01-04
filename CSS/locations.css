@@ -1,14 +1,82 @@
-/* /////////////////////// */
-/* /////// locations //////// */
-/* /////////////////////// */
+/* //////////////////////////////////////////////
+////////////// Locations ////////////////////////
+///////////////////////////////////////////////// */
 
-#locations{
-    display: grid;
-    
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+/* //////////////////////////////////////////////
+////////////// Locations section 1 ///////////////
+///////////////////////////////////////////////// */
+
+.loc1 {
+  float: left;
+  width: 100%;
+  background-image: url("../img/banter-snaps-Bxzrd0p6yOM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 20%;
+  height: 500px;
 }
 
 
 
+/* //////////////////////////////////////////////
+////////////// Locations section 2 ///////////////
+///////////////////////////////////////////////// */
 
+.set-arrow1{
+  float:  left;
+  margin-top: 250px;
+  margin-left: 50px;
+  max-width: 15%;
+  text-align: center;
+  background: gray;
+}
+
+.set-img{
+  width: 375px;
+  height: 200px;
+}
+
+.set-par{
+  max-width: 100%;
+}
+
+.set1 {
+  float: left;
+  max-width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 10px;
+  border: lightskyblue solid;
+}
+
+.set2 {
+  float: left;
+  max-width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border: lightskyblue solid;
+}
+
+.set3{
+  float: left;
+  max-width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border: lightskyblue solid;
+}
+
+.set-arrow2{
+  float: left;
+  max-width: 5%;
+  margin-top: 250px;
+  margin-right: 40px;
+  margin-left: 30px;
+  text-align: center;
+  background: gray;
+}

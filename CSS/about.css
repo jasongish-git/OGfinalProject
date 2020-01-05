@@ -97,7 +97,9 @@ body {
     grid-column-start: 2;
     grid-column-end: 3;
     text-align: left;
-    padding: 10px;
+    padding: 10px 40px 10px 10px;
+    width: 450px;
+    height: 275px;
 }
 
 #about-intro-image {
@@ -105,6 +107,10 @@ body {
     grid-column-end: 4;
 }
 
+#about-intro-image img {
+    width: 450px;
+    height: 275px;
+}
 
 
 /* CHEYENNE'S ORIGINAL FOOTER CSS BELOW */

@@ -1,8 +1,13 @@
 /* //////////////////////////////////////////////
 ////////////// Locations ////////////////////////
 ///////////////////////////////////////////////// */
-
-
+.fa-bars{
+  color: white;
+  float: Right;
+  margin-right: 30px;
+  margin-top: 6px;
+  /* visibility: hidden; */
+}
 /* //////////////////////////////////////////////
 ////////////// Locations section 1 ///////////////
 ///////////////////////////////////////////////// */
@@ -17,14 +22,12 @@
   height: 500px;
 }
 
-
-
 /* //////////////////////////////////////////////
 ////////////// Locations section 2 ///////////////
 ///////////////////////////////////////////////// */
 
-.set-arrow1{
-  float:  left;
+.set-arrow1 {
+  float: left;
   margin-top: 250px;
   margin-left: 50px;
   max-width: 15%;
@@ -32,12 +35,12 @@
   background: gray;
 }
 
-.set-img{
+.set-img {
   width: 375px;
   height: 200px;
 }
 
-.set-par{
+.set-par {
   max-width: 100%;
 }
 
@@ -61,7 +64,7 @@
   border: lightskyblue solid;
 }
 
-.set3{
+.set3 {
   float: left;
   max-width: 25%;
   margin-top: 30px;
@@ -71,7 +74,7 @@
   border: lightskyblue solid;
 }
 
-.set-arrow2{
+.set-arrow2 {
   float: left;
   max-width: 5%;
   margin-top: 250px;

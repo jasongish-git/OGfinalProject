@@ -54,30 +54,60 @@ body {
     background-color: gray;
 }
 
-h1 {
+
+#about-page {
+    margin: 0;
+    padding: 0;
+}
+
+#about-page h1 {
     font-family: 'Russo One';
+    /* font-size: 1em; */
     text-align: center;
     color: #f05123;
 }
 
-h2 {
+#about-page h2 {
     font-family: 'Russo One';
     text-align: center;
     color: #f7911e;
 }
 
-h3 {
+#about-page h3 {
     font-family: 'Russo One';
     text-align: center;
-    color: midnightblue;
-    border: 2px;
-    border-color: midnightblue;
+    color:midnightblue;
 }
 
-header {
+#about-page header {
     text-align: center;
 }
 
+/* AMY'S PROMO GRID CODE */
+
+#about-intro-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px;
+    margin: 5px;
+}
+
+#about-intro-text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+    padding: 10px;
+}
+
+#about-intro-image {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+
+/* CHEYENNE'S ORIGINAL FOOTER CSS BELOW */
 
 #footer-image {
     width: 100%;

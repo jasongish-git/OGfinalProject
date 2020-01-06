@@ -60,6 +60,13 @@ body {
     padding: 0;
 }
 
+#promo-banner-text {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 #about-page h1 {
     font-family: 'Russo One';
     /* font-size: 1em; */
@@ -91,6 +98,7 @@ body {
     grid-template-rows: 1fr;
     gap: 2px;
     margin: 5px;
+    padding-bottom: 40px;
 }
 
 #about-intro-text {
@@ -98,7 +106,7 @@ body {
     grid-column-end: 3;
     text-align: left;
     padding: 10px 40px 10px 10px;
-    width: 450px;
+    width: 600px;
     height: 275px;
 }
 
@@ -109,6 +117,32 @@ body {
 
 #about-intro-image img {
     width: 450px;
+    height: 275px;
+}
+
+#who-we-are-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    margin: 5px;
+    /* border: 5px solid #f7911e; */
+    /*background-color:  #f7911e; */
+}
+
+.who-we-are-images {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 20px;
+    /* border-radius: 50%; */
+}
+
+.who-we-are-info {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: left;
+    padding: 10px 40px 10px 10px;
+    width: 400px;
     height: 275px;
 }
 

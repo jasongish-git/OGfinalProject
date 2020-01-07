@@ -113,11 +113,23 @@ body {
 #about-intro-image {
     grid-column-start: 3;
     grid-column-end: 4;
+    /* border: 5px solid black; */
 }
 
 #about-intro-image img {
     width: 450px;
-    height: 275px;
+    height: 285px;
+}
+
+#who-we-are-surround {
+    border: 2px solid black; /* 10px solid #f7911e; */
+    border-radius: 15px;
+    background-color: #f7911e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 190px;
+    margin-right: 180px;
+    margin-bottom: 50px;
 }
 
 #who-we-are-container {
@@ -133,8 +145,8 @@ body {
 .who-we-are-images {
     grid-column-start: 2;
     grid-column-end: 3;
-    padding: 20px;
-    /* border-radius: 50%; */
+    margin: 20px;
+    /* border: 5px solid black; */
 }
 
 .who-we-are-info {
@@ -146,8 +158,7 @@ body {
     height: 275px;
 }
 
-
-/* CHEYENNE'S ORIGINAL FOOTER CSS BELOW */
+/********************* FOOTER ************************/
 
 #footer-image {
     width: 100%;
@@ -156,4 +167,82 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 400px;
     background-position: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+
+#footer-nav {
+    display: inline-flex;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    font-family: 'Russo One';
+    font-size: 1em;
+    color: #ffffff;
+    align-content: stretch;
+}
+
+#footer-nav a {
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0;
+    padding: 0px 140px 0px 0px;
+}
+
+#footer-clients {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    font-family: 'Merienda';
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+#footer-contact-info {
+    margin: 0;
+    padding: 0px 0px 10px 40px;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-family: 'Merienda';
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+#footer-SocialMedia {
+    display: inline;
+    margin: 0;
+    padding: 50px 0px 0px 180px;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    font-family: 'Merienda';
+    font-size: 0.7em;
+    color: #ffffff;
+}
+
+
+
+
+/* CHEYENNE'S ORIGINAL FOOTER CSS BELOW */
+
+/* #footer-image {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/Moon\ Gate.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: auto;
+}
+*/

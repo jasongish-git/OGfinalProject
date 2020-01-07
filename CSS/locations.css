@@ -1,18 +1,28 @@
 /* //////////////////////////////////////////////
 ////////////// Locations ////////////////////////
 ///////////////////////////////////////////////// */
-.fa-bars{
+.fa-bars {
   color: white;
   float: Right;
   margin-right: 30px;
   margin-top: 6px;
-  /* visibility: hidden; */
+  visibility: hidden;
+}
+
+.loc-head {
+  text-align: center;
 }
 /* //////////////////////////////////////////////
 ////////////// Locations section 1 ///////////////
 ///////////////////////////////////////////////// */
 
-.loc1 {
+.loc-back {
+  clear: both;
+  background: rgba(0, 0, 0, 0.335);
+  padding-bottom: 9.8em;
+}
+
+.loc-1 {
   float: left;
   width: 100%;
   background-image: url("../img/banter-snaps-Bxzrd0p6yOM-unsplash.jpg");
@@ -22,64 +32,218 @@
   height: 500px;
 }
 
+.loc-h2 {
+  font-family: "Russo One";
+  font-size: 2em;
+  text-align: left;
+  margin-bottom: 0em;
+  margin-top: 9em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  color: #f04f23;
+}
+
+.loc-par1 {
+  float: left;
+  font-family: "Puritan";
+  font-size: 0.8em;
+  text-align: left;
+  line-height: 1.2em;
+  padding-left: 2.3em;
+  padding-left: 2.3em;
+  color: white;
+}
+
+.loc1-h2 {
+  font-family: "Russo One";
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  color: white;
+  float: left;
+  background: #f04f23;
+  border-radius: 20px;
+}
+
+.loc1-h1 {
+  font-family: "Russo One";
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  color: white;
+  float: left;
+  background: #f04f23;
+  border-radius: 20px;
+}
+
 /* //////////////////////////////////////////////
 ////////////// Locations section 2 ///////////////
 ///////////////////////////////////////////////// */
 
-.set-arrow1 {
+.fa-angle-left {
   float: left;
   margin-top: 250px;
   margin-left: 50px;
-  max-width: 15%;
-  text-align: center;
-  background: gray;
-}
-
-.set-img {
-  width: 375px;
-  height: 200px;
-}
-
-.set-par {
+  margin-right: 10px;
   max-width: 100%;
+  text-align: center;
 }
 
-.set1 {
+.loc-img {
+  width: 100%;
+}
+
+.loc2-h3 {
+  font-family: "Russo One";
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.loc-hr {
+  width: 18%;
+  margin: 0;
+  margin-left: 20px;
+  background: black;
+  height: 3px;
+  border-radius: 20px;
+}
+
+.loc-par {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Puritan";
+  max-width: 100%;
+  font-size: 100%;
+  clear: both;
+}
+
+.loc1-1 {
+  float: left;
+  max-width: 25%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 9px;
+  box-shadow: 1px 1px 5px #f04f2369;
+}
+
+.loc2-2 {
   float: left;
   max-width: 25%;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 50px;
-  margin-right: 10px;
-  border: lightskyblue solid;
+  margin-right: 9px;
+  box-shadow: 1px 1px 5px #f04f2369;
 }
 
-.set2 {
+.loc3-3 {
   float: left;
   max-width: 25%;
   margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 10px;
-  border: lightskyblue solid;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 9px;
+  box-shadow: 1px 1px 5px #f04f2369;
 }
 
-.set3 {
+.fa-angle-right {
   float: left;
-  max-width: 25%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 10px;
-  border: lightskyblue solid;
-}
-
-.set-arrow2 {
-  float: left;
-  max-width: 5%;
+  max-width: 100%;
   margin-top: 250px;
-  margin-right: 40px;
-  margin-left: 30px;
+  margin-left: 50px;
   text-align: center;
-  background: gray;
 }
+
+/* //////////////////////////////////////////////
+////////////// Locations section 3 ///////////////
+///////////////////////////////////////////////// */
+
+.loc3-img{
+  clear: both;
+  width: 82.3%;
+  background-image: url("../img/thomas-kelley-4w8-xhdcZoU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 20%;
+  margin-left: 130px;
+  height: 500px;
+}
+
+.loc2-h2{
+  font-family: 'Russo One';
+  max-width: 82.3%;
+  margin-left: 130px;
+  margin-bottom: 0;
+}
+
+.loc-par2{
+  font-family: 'Puritan';
+  max-width: 82.3%;
+  margin-left: 130px;
+  margin-bottom: 30px;
+}
+
+.loc2-hr {
+  width: 5.7%;
+  margin: 0;
+  margin-left: 130px;
+  margin-top: 0;
+  background: black;
+  height: 3px;
+  border-radius: 20px;
+}
+
+.loc4-img{
+  clear: both;
+  width: 100%;
+  background-image: url("../img/q-u-i-0G01UI1MQhg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 20%;
+  margin-bottom: 0;
+  height: 500px;
+}
+
+.loc-back2{
+  float: left;
+  margin-top: 340px;
+  padding-top: 30px;
+  padding-bottom: 34px;
+  background: rgba(0, 0, 0, 0.808);
+}
+
+.loc4-h2{
+  float: left;
+  font-family: 'Russo One';
+  text-align: left;
+  margin: 0;
+  margin-left: 20px;
+  color: #f04f23;
+}
+
+.loc-par3{
+  float: left;
+  font-family: 'Puritan';
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+
+.loc-line{
+  width: 100%;
+  margin: 0;
+  height: 10px;
+  background: #2B2C79;
+  /* background: #F7911E; */
+  /* background: #f04f23; */
+  /* background: linear-gradient(rgb(0, 0, 0),#f04f23); */
+}
+
+/* //////////////////////////////////////////////
+////////////// Locations section 4 ///////////////
+///////////////////////////////////////////////// */

@@ -132,6 +132,11 @@ body {
     margin-bottom: 50px;
 }
 
+#about-who-intro {
+    margin-left: 187px;
+    margin-right: 187px;
+}
+
 #about-who-we-are-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

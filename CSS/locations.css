@@ -106,7 +106,7 @@
   font-family: "Russo One";
   margin-left: 20px;
   margin-bottom: 0;
-  border: red solid;
+  /* border: red solid; */
 }
 
 .loc2-h3China {
@@ -115,7 +115,7 @@
   font-family: "Russo One";
   margin-left: 20px;
   margin-bottom: 0;
-  border: red solid;
+  /* border: red solid; */
 }
 
 .loc2-h3Russia {
@@ -124,7 +124,7 @@
   font-family: "Russo One";
   margin-left: 20px;
   margin-bottom: 0;
-  border: red solid;
+  /* border: red solid; */
 }
 
 .loc-hrAfrica {
@@ -298,8 +298,8 @@
   font-family: 'Russo One';
   padding-left: 20px;
   color: white;
-  border: solid 
-  red;
+  /* border: solid 
+  red; */
 }
 
 .loc-foot2{

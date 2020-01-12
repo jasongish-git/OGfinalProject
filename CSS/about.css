@@ -1,4 +1,4 @@
-html {
+/* html {
     box-sizing: border-box;
 }
   
@@ -52,7 +52,7 @@ body {
 
 #navbar a:hover {
     background-color: gray;
-}
+} */
 
 
 #about-page {
@@ -165,7 +165,7 @@ body {
 
 /********************* FOOTER ************************/
 
-#footer-image {
+/* #footer-image {
     width: 100%;
     height: 400px;
     background-image: url("../img/Moon\ Gate.jpg");
@@ -235,7 +235,7 @@ footer a {
     font-family: 'Merienda';
     font-size: 0.7em;
     color: #ffffff;
-}
+} */
 
 
 

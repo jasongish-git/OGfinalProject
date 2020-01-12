@@ -100,16 +100,52 @@
   width: 100%;
 }
 
-.loc2-h3 {
+.loc2-h3Africa {
+  width: 16%;
+  font-size: 100%;
   font-family: "Russo One";
   margin-left: 20px;
   margin-bottom: 0;
+  border: red solid;
 }
 
-.loc-hr {
-  width: 18%;
-  margin: 0;
+.loc2-h3China {
+  width: 14%;
+  font-size: 100%;
+  font-family: "Russo One";
   margin-left: 20px;
+  margin-bottom: 0;
+  border: red solid;
+}
+
+.loc2-h3Russia {
+  width: 18%;
+  font-size: 100%;
+  font-family: "Russo One";
+  margin-left: 20px;
+  margin-bottom: 0;
+  border: red solid;
+}
+
+.loc-hrAfrica {
+  width: 100%;
+  margin: 0;
+  background: black;
+  height: 3px;
+  border-radius: 20px;
+}
+
+.loc-hrChina {
+  width: 100%;
+  margin: 0;
+  background: black;
+  height: 3px;
+  border-radius: 20px;
+}
+
+.loc-hrRussia {
+  width: 100%;
+  margin: 0;
   background: black;
   height: 3px;
   border-radius: 20px;
@@ -119,8 +155,9 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Puritan";
+  font-size: larger;
+  text-align: left;
   max-width: 100%;
-  font-size: 100%;
   clear: both;
 }
 
@@ -253,26 +290,27 @@
 
 .loc-foot1{
   float: left;
-  max-width: 30%;
+  max-width: 40%;
   margin-left: 50px;
   margin-top: 50px;
-  margin-bottom: 80px;
-  margin-right: 30%;
   text-align: left;
   line-height: 20px;
   font-family: 'Russo One';
   padding-left: 20px;
   color: white;
+  border: solid 
+  red;
 }
 
 .loc-foot2{
-  float: left;
-  max-width: 30%;
-  margin-left: 450px;
+  float: right;
+  max-width: 40%;
+  margin-right: 100px;
   margin-top: 50px;
   text-align: left;
   line-height: 20px;
-  font-family: 'Puritan';
+  font-family: 'Russo One';
+  padding-right: 50px;
   color: white;
 }
 

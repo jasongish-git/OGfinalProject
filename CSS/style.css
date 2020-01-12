@@ -73,3 +73,15 @@ body {
     background-size: 100% 400px;
     background-position: auto;
 }
+
+/********************** Kyle's css**************************/
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+.h3d {color: black;}
+    .div5 {text-align: center;}
+    .img1 {height:  250px; width: 400px;}
+    .img2 {height:  250px; width: 250px;}

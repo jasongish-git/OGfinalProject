@@ -1,0 +1,98 @@
+@media screen and (max-width: 620px) {
+    html {
+        box-sizing: content-box;
+        float: none;
+    }
+
+    .fa-bars {
+        visibility: visible;
+    }
+
+    #navbar {
+        display: inline-block;
+    }
+
+    #navbar ul li a {
+        display: none;
+    }
+
+    div {
+        display: flex;
+        flex-basis: 600px;
+        flex-shrink: 2;
+    }
+
+    #home-page {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    #our-story-grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    #home-our-story {
+        width: 100%;
+        padding: 2px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #our-story-grid-container img, #home-example-products img, #footer-nav, #footer-clients {
+        display: none;
+    }
+
+    #footer-image {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #footer-contact-info {
+        display: block;
+        padding: 10px;
+        margin: 0;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: 0.7em;
+    }
+
+    #footer-SocialMedia {
+        margin: 10px;
+        padding: 0px 0px 0px 130px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        font-size: 0.7em;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+    .fa-bars {
+        visibility: visible;
+    }
+
+    #navbar ul li a {
+        display: none;
+    }
+
+    body {
+        width: 75%;
+        float: left;
+        display: flex;
+        flex-basis: 600px;
+        flex-shrink: 2;
+    }
+
+    div {
+        width: 50%;
+        float: left;
+        display: flex;
+        flex-basis: 300px;
+        flex-shrink: 2;
+    }
+} */

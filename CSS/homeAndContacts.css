@@ -53,13 +53,13 @@ body {
     background-color: gray;
 }
 
-.fa-bars{
+.fa-bars {
     color: white;
     float: Right;
     margin-right: 30px;
     margin-top: 6px;
     visibility: hidden;
-  }
+}
 
 #home-page {
     margin: 0;
@@ -106,16 +106,17 @@ body {
 }
 
 #home-our-story {
-    display: inline-flex;
+    display: inline;
     color: #2b2c79;
     grid-column-start: 2;
     grid-column-end: 2;
     text-align: left;
+    font-family: 'Puritan';
 }
 
 #our-story-grid-container img {
     width: 300px;
-    height: 300px;
+    height: 600px;
 }
 
 #home-example-products {
@@ -153,6 +154,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     gap: .5px;
     margin: 0;
+    font-family: 'Puritan';
 }
 
 #contacts-page h1 {
@@ -174,7 +176,6 @@ body {
 }
 
 #contacts-header {
-    display: grid;
     text-align: center;
     grid-row-start: 1;
     grid-row-end: 1;
@@ -185,7 +186,6 @@ body {
 .contacts-section1 {
     display: flex;
     margin: 0;
-    /* padding: 5px; */
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 2;

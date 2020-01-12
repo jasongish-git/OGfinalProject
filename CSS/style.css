@@ -19,6 +19,8 @@ body {
     margin: 0;
 }
 
+/***************** NAVIGATION BAR ********************/
+
 #navbar {
     background-color: #000000;
     width: 100%;
@@ -52,6 +54,16 @@ body {
 #navbar a:hover {
     background-color: gray;
 }
+
+.fa-bars {
+    color: white;
+    float: Right;
+    margin-right: 30px;
+    margin-top: 6px;
+    visibility: hidden;
+}
+
+/********************* FOOTER ************************/
 
 #footer-image {
     width: 100%;

@@ -1,9 +1,11 @@
+/****************** MOBILE DEVICE ********************/
 @media screen and (max-width: 620px) {
     html {
         box-sizing: content-box;
         float: none;
     }
 
+/***************** NAVIGATION BAR ********************/
     .fa-bars {
         visibility: visible;
     }
@@ -16,39 +18,23 @@
         display: none;
     }
 
-    div {
-        display: flex;
-        flex-basis: 600px;
-        flex-shrink: 2;
-    }
+/********************* FOOTER ************************/
 
-    #home-page {
-        display: block;
-        float: none;
-        width: 100%;
-    }
-
-    #our-story-grid-container {
-        grid-template-columns: 1fr;
-    }
-    
-    #home-our-story {
-        width: 100%;
-        padding: 2px;
-        text-align: center;
-        grid-column-start: 1;
-        grid-column-end: 1;
-    }
-
-    #our-story-grid-container img, #home-example-products img, #footer-nav, #footer-clients {
+    #navbar2, .loc-foot2 {
         display: none;
     }
 
-    #footer-image {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+    .loc-foot1, .loc-foot3par {
+        display: block;
+        float: none;
+        max-width: 40%;
+        text-align: left;
+        line-height: 15px;
+        font-size: 13px;
+        margin: 0px;
+        padding: 0px;
     }
-
+/* 
     #footer-contact-info {
         display: block;
         padding: 10px;
@@ -68,9 +54,151 @@
         grid-column-start: 2;
         grid-column-end: 2;
         font-size: 0.7em;
+    } */
+
+/********************* PAGES ************************/
+    div {
+        display: flex;
+        flex-basis: 600px;
+        flex-shrink: 2;
+    }
+
+    #home-page, #contacts-page, #about-page {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    #our-story-grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    #home-our-story {
+        width: 100%;
+        padding: 2px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #our-story-grid-container img, #home-example-products img {
+        display: none;
+    }
+
+    #contacts-store-info {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        font-size: .8em;
+    }
+    
+    #contacts-page-main-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    #contacts-store-staff {
+        text-align: center;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .contacts-section1 {
+        display: flex;
+        margin: 0;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        max-width: 200px;
+        max-height: 300px;
+    }
+    
+    .contacts-section1 img {
+        width: 200px;
+        height: 300px;
+    }
+    
+    .contacts-section2 {
+        display: flex;
+        flex-shrink: 2;
+        margin: 0;
+        padding: 5px;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    #about-intro-grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #about-intro-text {
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        width: 100%;
+    }
+
+    #about-intro-image {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #about-intro-image img {
+        width: 100%;
+        height: 375px;
+    }
+
+    #about-who-we-are-surround {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #about-who-intro {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #about-who-we-are-container {
+        float: none;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 0px;
+        height: 100%;
+    }
+
+    .about-who-we-are-images {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin: 5px;
+    }
+
+    .about-who-we-are-images img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .about-who-we-are-info {
+        display: block;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        text-align: left;
+        padding: 5px;
+        width: 100%;
+        height: 430px;
     }
 }
 
+/********** SMALLER DESKTOP/LAPTOP/WINDOW ************/
 /* @media screen and (max-width: 800px) {
     .fa-bars {
         visibility: visible;

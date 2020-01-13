@@ -88,20 +88,6 @@ body {
     margin-right: 150px;
 }
 
-#nav-image {
-    float: left;
-    margin: 0;
-    height: 50px;
-    width: 100px;
-    background-image: url("../img/Logo-Transparent-White-2.png");
-    background-repeat: no-repeat;
-    background-size: 65%;
-    background-position: center;
-}
-
-#navbar a:hover {
-    background-color: gray;
-}
 /********************* FOOTER ************************/
 
 #footer-image {
@@ -113,7 +99,7 @@ body {
     background-position: auto;
 }
 
-.loc-foot1{
+.loc-foot1 {
     float: left;
     max-width: 40%;
     margin-left: 50px;
@@ -126,8 +112,12 @@ body {
     /* border: solid 
     red; */
 }
+
+.loc-foot1 a {
+    color: #ffffff;
+}
   
-.loc-foot2{
+.loc-foot2 {
     float: right;
     max-width: 40%;
     margin-right: 100px;
@@ -139,24 +129,613 @@ body {
     color: white;
 }
   
-.loc-foot3par{
+.loc-foot3par {
     max-width: 30%;
     margin-top: 50px;
     text-align: left;
     font-family: 'Russo One';
 }
   
-.fa-facebook-square{
-  margin-left: 0px;
+.fa-facebook-square {
+    margin-left: 0px;
+    color: #ffffff;
 }
   
-.fa-twitter-square{
+.fa-twitter-square, .fa-instagram {
     margin-left: 20px;
+    color: #ffffff;
 }
+
+/* #footer-image {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/Moon\ Gate.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#footer-nav {
+    display: inline-flex;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    font-family: 'Russo One';
+    font-size: 1em;
+    color: #ffffff;
+    align-content: stretch;
+}
+
+#footer-nav a {
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0;
+    padding: 0px 140px 0px 0px;
+}
+
+#footer-clients {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    font-family: 'Merienda';
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+#footer-contact-info {
+    margin: 0;
+    padding: 0px 0px 10px 40px;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-family: 'Merienda';
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+#footer-SocialMedia {
+    display: inline;
+    margin: 0;
+    padding: 50px 0px 0px 180px;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    font-family: 'Merienda';
+    font-size: 0.7em;
+    color: #ffffff;
+} */
+
+/***************** HOME & CONTACTS PAGES ******************/
+#home-page, #contacts-page {
+    margin: 0;
+    padding: 0;
+}
+
+#home-page h1, #contacts-page h1 {
+    font-family: 'Russo One';
+    text-align: center;
+    color: #f05123;
+}
+
+#home-page h2, #contacts-page h2 {
+    font-family: 'Russo One';
+    text-align: center;
+    color: #f7911e;
+}
+
+#home-page h3, #contacts-page h3 {
+    font-family: 'Russo One';
+    text-align: center;
+    color:midnightblue;
+}
+
+#home-page header p, #contacts-page header p, .caption {
+    font-family: 'Merienda';
+    text-align: center;
+    color: #2b2c79;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#home-page header img, #contacts-page header img {
+    width: 100%;
+    height: 400px;
+}
+
+#our-story-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px;
+    margin: 5px;
+}
+
+#home-our-story {
+    display: inline;
+    color: #2b2c79;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: left;
+    font-family: 'Puritan';
+}
+
+#our-story-grid-container img {
+    width: 300px;
+    height: 600px;
+}
+
+#home-example-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: .5px;
+    margin: 5px;
+    align-content: center;
+    text-align: center;
+    background-color: #f7911e;
+    padding: 10px 5px 10px 5px;
+    border: 2px solid #000000;
+}
+
+#home-example-products img {
+    width: 350px;
+    height: 400px;
+}
+
+.caption a {
+    text-decoration: none;
+}
+
+#contacts-store-info {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Puritan';
+    font-size: 1em;
+}
+
+#contacts-page-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .5px;
+    margin: 0px;
+    font-family: 'Puritan';
+}
+
+#contacts-store-staff {
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+.contacts-section1 {
+    display: flex;
+    margin: 0;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    border: 5px solid #2b2c79;
+    max-width: 210px;
+    max-height: 310px;
+}
+
+.contacts-section1 img {
+    width: 200px;
+    height: 300px;
+}
+
+.contacts-section2 {
+    display: grid;
+    margin: 0;
+    padding: 5px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#contacts-request-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: .5px;
+}
+
+#contacts-page em {
+    text-decoration: underline;
+    margin: 5px;
+    color: #f05123;
+}
+
+#contacts-page header a, #contacts-page section a {
+    color: #2b2c79;
+}
+
+/***************** ABOUT PAGE *******************/
+#about-page {
+    margin: 0;
+    padding: 0;
+}
+
+#about-promo-banner-text {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#about-page h1 {
+    font-family: 'Russo One';
+    /* font-size: 1em; */
+    text-align: center;
+    color: #f05123;
+}
+
+#about-page h2 {
+    font-family: 'Russo One';
+    text-align: center;
+    color: #f7911e;
+}
+
+#about-page h3 {
+    font-family: 'Russo One';
+    text-align: center;
+    color:midnightblue;
+}
+
+#about-page header {
+    text-align: center;
+}
+
+/* AMY'S PROMO GRID CODE */
+
+#about-intro-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px;
+    margin: 5px;
+    padding-bottom: 40px;
+}
+
+#about-intro-text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+    padding: 10px 40px 10px 10px;
+    width: 500px;
+    height: 375px;
+}
+
+#about-intro-image {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    /* border: 5px solid black; */
+}
+
+#about-intro-image img {
+    width: 585px; /* 450px; */
+    height: 375px;/* 285px; */
+}
+
+#about-who-we-are-surround {
+    border: 2px solid black; /* 10px solid #f7911e; */
+    border-radius: 15px;
+    background-color: #f7911e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 50px;
+}
+
+#about-who-intro {
+    margin-left: 187px;
+    margin-right: 187px;
+}
+
+#about-who-we-are-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    margin: 5px;
+    /* border: 5px solid #f7911e; */
+    /*background-color:  #f7911e; */
+}
+
+.about-who-we-are-images {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 20px;
+    /* border: 5px solid black; */
+}
+
+.about-who-we-are-images img {
+    width: 300px;
+    height: 365px;
+}
+
+.about-who-we-are-info {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: left;
+    padding: 10px 40px 10px 10px;
+    width: 400px;
+    height: 275px;
+}
+
+/************* NEWS/LOCATIONS PAGE **************/
+.loc-head {
+    text-align: center;
+    font-family: 'Russo One';
+    }
+/* //////////////////////////////////////////////
+////////////// Locations section 1 ///////////////
+///////////////////////////////////////////////// */
+
+.loc-back {
+    clear: both;
+    background: rgba(0, 0, 0, 0.335);
+    padding-bottom: 9.8em;
+  }
   
-.fa-instagram{
+  .loc-1 {
+    float: left;
+    width: 100%;
+    background-image: url("../img/banter-snaps-Bxzrd0p6yOM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 20%;
+    height: 500px;
+  }
+  
+  .loc-h2 {
+    font-family: "Russo One";
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0em;
+    margin-top: 9em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    color: #f04f23;
+  }
+  
+  .loc-par1 {
+    float: left;
+    font-family: "Puritan";
+    font-size: 0.8em;
+    text-align: left;
+    line-height: 1.2em;
+    padding-left: 2.3em;
+    padding-left: 2.3em;
+    color: white;
+  }
+  
+  /* Add hovers for the fake buttons */
+  
+  .loc1-h2 {
+    font-family: "Russo One";
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    color: white;
+    float: left;
+    background: #f04f23;
+    border-radius: 20px;
+  }
+  
+  .loc1-h1 {
+    font-family: "Russo One";
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    color: white;
+    float: left;
+    background: #f04f23;
+    border-radius: 20px;
+  }
+  
+  /* //////////////////////////////////////////////
+  ////////////// Locations section 2 ///////////////
+  ///////////////////////////////////////////////// */
+  
+  .fa-angle-left {
+    float: left;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .loc-img {
+    width: 100%;
+  }
+  
+  .loc2-h3Africa {
+    width: 16%;
+    font-size: 100%;
+    font-family: "Russo One";
     margin-left: 20px;
-}
+    margin-bottom: 0;
+    /* border: red solid; */
+  }
+  
+  .loc2-h3China {
+    width: 14%;
+    font-size: 100%;
+    font-family: "Russo One";
+    margin-left: 20px;
+    margin-bottom: 0;
+    /* border: red solid; */
+  }
+  
+  .loc2-h3Russia {
+    width: 18%;
+    font-size: 100%;
+    font-family: "Russo One";
+    margin-left: 20px;
+    margin-bottom: 0;
+    /* border: red solid; */
+  }
+  
+  .loc-par {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Puritan";
+    font-size: larger;
+    text-align: left;
+    max-width: 100%;
+    clear: both;
+  }
+  
+  .loc1-1 {
+    float: left;
+    max-width: 25%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 9px;
+    box-shadow: 1px 1px 5px #f04f2369;
+  }
+  
+  .loc2-2 {
+    float: left;
+    max-width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 9px;
+    box-shadow: 1px 1px 5px #f04f2369;
+  }
+  
+  .loc3-3 {
+    float: left;
+    max-width: 25%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 9px;
+    box-shadow: 1px 1px 5px #f04f2369;
+  }
+  
+  .fa-angle-right {
+    float: left;
+    max-width: 100%;
+    margin-top: 250px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  /* //////////////////////////////////////////////
+  ////////////// Locations section 3 ///////////////
+  ///////////////////////////////////////////////// */
+  
+  .loc3-img{
+    clear: both;
+    width: 82.3%;
+    background-image: url("../img/cristina-gottardi--YzMZYqwoH4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 20%;
+    margin-left: 130px;
+    height: 500px;
+  }
+  
+  .loc2-h2{
+    font-family: 'Russo One';
+    max-width: 82.3%;
+    margin-left: 130px;
+    margin-bottom: 0;
+  }
+  
+  .loc-par2{
+    font-family: 'Puritan';
+    max-width: 82.3%;
+    margin-left: 130px;
+    margin-bottom: 30px;
+  }
+  
+  .loc2-hr {
+    width: 5.7%;
+    margin: 0;
+    margin-left: 130px;
+    margin-top: 0;
+    background: black;
+    height: 3px;
+    border-radius: 20px;
+  }
+  
+  .loc4-img{
+    clear: both;
+    width: 100%;
+    background-image: url("../img/q-u-i-0G01UI1MQhg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 20%;
+    margin-bottom: 0;
+    height: 500px;
+  }
+  
+  .loc-back2{
+    float: left;
+    margin-top: 300px;
+    padding-top: 65px;
+    padding-bottom: 39px;
+    background: rgba(0, 0, 0, 0.808);
+  }
+  
+  .loc4-h2{
+    float: left;
+    font-family: 'Russo One';
+    text-align: left;
+    margin: 0;
+    margin-left: 40px;
+    color: #f04f23;
+  }
+  
+  .loc-par3{
+    float: left;
+    font-family: 'Puritan';
+    text-align: left;
+    margin-left: 40px;
+    color: white;
+  }
+  
+  .loc-line{
+    width: 100%;
+    margin: 0;
+    height: 10px;
+    background: #2B2C79;
+    /* background: #F7911E; */
+    /* background: #f04f23; */
+    /* background: linear-gradient(rgb(0, 0, 0),#f04f23); */
+  }
 
 /********************** Kyle's css**************************/
 .div1 {

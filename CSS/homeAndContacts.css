@@ -1,4 +1,4 @@
-html {
+/* html {
     box-sizing: border-box;
 }
   
@@ -59,7 +59,7 @@ body {
     margin-right: 30px;
     margin-top: 6px;
     visibility: hidden;
-}
+} */
 
 #home-page {
     margin: 0;
@@ -227,7 +227,7 @@ body {
     color: #2b2c79;
 }
 
-#footer-image {
+/* #footer-image {
     width: 100%;
     height: 400px;
     background-image: url("../img/Moon\ Gate.jpg");
@@ -297,4 +297,4 @@ footer a {
     font-family: 'Merienda';
     font-size: 0.7em;
     color: #ffffff;
-}
+} */

@@ -34,29 +34,7 @@
         margin: 0px;
         padding: 0px;
     }
-/* 
-    #footer-contact-info {
-        display: block;
-        padding: 10px;
-        margin: 0;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        font-size: 0.7em;
-    }
-
-    #footer-SocialMedia {
-        margin: 10px;
-        padding: 0px 0px 0px 130px;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        font-size: 0.7em;
-    } */
-
-/********************* PAGES ************************/
+/********************* Home ************************/
     div {
         display: flex;
         flex-basis: 600px;
@@ -84,6 +62,8 @@
     #our-story-grid-container img, #home-example-products img {
         display: none;
     }
+
+/********************* Conacts ************************/
 
     #contacts-store-info {
         display: block;
@@ -132,6 +112,8 @@
         grid-column-start: 1;
         grid-column-end: 1;
     }
+
+/********************* About ************************/
     
     #about-intro-grid-container {
         grid-template-columns: 1fr;
@@ -196,9 +178,190 @@
         width: 100%;
         height: 430px;
     }
+/********************* Locations ************************/
 }
 
+
 /********** SMALLER DESKTOP/LAPTOP/WINDOW ************/
+@media screen and (max-width: 3345px) {
+    html {
+        box-sizing: content-box;
+        float: none;
+    }
+
+/***************** NAVIGATION BAR ********************/
+    .fa-bars {
+        visibility: visible;
+    }
+
+    #navbar {
+        display: inline-block;
+    }
+
+    #navbar ul li a {
+        display: none;
+    }
+
+/********************* FOOTER ************************/
+
+    #navbar2 {
+        clear: both;
+        height: 50px;
+        width: 100%;
+    }
+    
+    #navbar2 ul li a {
+        display: none;
+    }
+
+    .loc-foot1, .loc-foot2, .loc-foot3par {
+        display: block;
+        clear: bottom;
+        max-width: 60%;
+        text-align: left;
+        line-height: 20px;
+        font-family: 'Puritan';
+        font-size: 13px;
+        /* margin-left: 10px; */
+    }
+
+    .loc-foot2{
+        max-width: 50%;
+        margin-right: 50px;
+    }
+
+    #footer-image {
+        width: 100%;
+        clear: both;
+        height: 400px;
+        background-image: url("../img/Moon\ Gate.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /********************* Home *************************/
+    #our-story-grid-container img {
+        width: 300px;
+        height: 380px;
+        box-shadow: 1px 1px 5px #f04f2369;
+    }
+    
+    #home-our-story p{
+        width: 400px;
+        text-align: left;
+        font-family: 'Puritan';
+        font-size: smaller;
+    }
+
+    
+    #home-example-products img {
+    width: 350px;
+    height: 400px;
+    padding: 15px;
+    }
+    /********************* About ************************/
+    
+    #about-page p {
+        font-family: 'Puritan';
+        font-size: 16px;
+        /* width: 450px; */
+        /* margin-left: 20px; */
+    }
+
+    #about-intro-image img {
+    width: 488px; /* 450px; */
+    height: 330px;/* 285px; */
+    margin-right: 20px;
+    box-shadow: 1px 1px 5px #f04f2369;
+    }  
+
+    #about-who-we-are-surround {
+        width: 97.6%;
+        border: 2px solid black; /* 10px solid #f7911e; */
+        border-radius: 15px;
+        background-color: #f7911e;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    
+    /********************* Locations ********************/
+    .loc-par1, .loc-par2, .loc-par3{
+        font-family: 'Puritan';
+        font-size: smaller;
+        margin-bottom: 50px;
+    }
+
+    .loc-par{
+        font-family: 'Puritan';
+        font-size: 15px;
+    }
+
+    .loc-icons{
+        display: none;
+    }
+
+    .loc1-1, .loc2-2, .loc3-3{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+
+    .loc1-1{
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+
+    .loc2-2, .loc3-3{
+        padding-bottom: 34px;
+    }
+      
+  
+    .loc3-img{
+        clear: both;
+        width: 82.3%;
+        background-image: url("../img/cristina-gottardi--YzMZYqwoH4-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 20%;
+        margin-left: 130px;
+        height: 500px;
+    }
+
+    .loc-back {
+        /* clear: both; */
+        background: rgba(0, 0, 0, 0.335);
+        padding-bottom:134px;
+        margin-top: 300px;
+        margin-bottom: 60px;
+    }
+
+    .loc-h2, .loc-par1{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .loc-back2{
+        float: left;
+        margin-top: 277px;
+        padding-top: 65px;
+        padding-bottom: 21px;
+        background: rgba(0, 0, 0, 0.808);
+    }
+    /********************* Products *********************/
+    
+    /********************* Contacts *********************/
+
+
+
+
+
+
+
+}
 /* @media screen and (max-width: 800px) {
     .fa-bars {
         visibility: visible;

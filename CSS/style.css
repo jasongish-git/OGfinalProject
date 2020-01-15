@@ -431,6 +431,7 @@ footer a {
 #about-intro-text {
     grid-column-start: 2;
     grid-column-end: 3;
+    font-family: 'Puritan';
     text-align: left;
     padding: 10px 40px 10px 10px;
     width: 500px;
@@ -461,6 +462,7 @@ footer a {
 }
 
 #about-who-intro {
+    font-family: 'Puritan';
     margin-left: 187px;
     margin-right: 187px;
 }
@@ -490,6 +492,7 @@ footer a {
 .about-who-we-are-info {
     grid-column-start: 3;
     grid-column-end: 4;
+    font-family: 'Puritan';
     text-align: left;
     padding: 10px 40px 10px 10px;
     width: 400px;

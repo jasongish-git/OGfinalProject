@@ -226,10 +226,9 @@
 }
 
 .loc-back2{
-  float: left;
-  margin-top: 300px;
+  /* float: left; */
+  margin-top: 250px;
   padding-top: 65px;
-  padding-bottom: 39px;
   background: rgba(0, 0, 0, 0.808);
 }
 
@@ -248,16 +247,6 @@
   text-align: left;
   margin-left: 40px;
   color: white;
-}
-
-.loc-line{
-  width: 100%;
-  margin: 0;
-  height: 10px;
-  background: #2B2C79;
-  /* background: #F7911E; */
-  /* background: #f04f23; */
-  /* background: linear-gradient(rgb(0, 0, 0),#f04f23); */
 }
 
 /* //////////////////////////////////////////////

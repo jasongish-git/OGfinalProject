@@ -354,14 +354,43 @@
     /********************* Products *********************/
     
     /********************* Contacts *********************/
+    #contacts-page header img {
+        width: 100%;
+        grid-column-start: 0;
+        grid-column-end: 4;
+    }
 
+    #contacts-store-info {
+        margin-bottom: 100px;
+    }
 
+    .contacts-section1 {
+        display: flex;
+        margin-left: 80PX;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        max-width: 210px;
+        max-height: 310px;
+    }
+    
+    #contacts-request-form li {
+        padding: 10px;
+    }
 
+    #contacts-request-form {
+        margin-right: 180px;
+    }
 
-
-
-
+    #contacts-page h2 {
+        font-family: 'Russo One';
+        text-align: left;
+        color: #f7911e;
+        margin-left: 50px;
+    }
 }
+
 /* @media screen and (max-width: 800px) {
     .fa-bars {
         visibility: visible;

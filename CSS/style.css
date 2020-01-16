@@ -336,12 +336,12 @@ footer a {
     grid-row-end: 1;
     grid-column-start: 4;
     grid-column-end: 4;
-    border: 5px solid #2b2c79;
     max-width: 210px;
     max-height: 310px;
 }
 
 .contacts-section1 img {
+    border: 5px solid #2b2c79;
     width: 200px;
     height: 300px;
 }

@@ -63,7 +63,7 @@
         display: none;
     }
 
-/********************* Conacts ************************/
+/********************* Contacts ************************/
 
     #contacts-store-info {
         display: block;
@@ -183,7 +183,7 @@
 
 
 /********** SMALLER DESKTOP/LAPTOP/WINDOW ************/
-@media screen and (max-width: 3345px) {
+@media screen and (min-width: 3345px) {
     html {
         box-sizing: content-box;
         float: none;
@@ -390,29 +390,3 @@
         margin-left: 50px;
     }
 }
-
-/* @media screen and (max-width: 800px) {
-    .fa-bars {
-        visibility: visible;
-    }
-
-    #navbar ul li a {
-        display: none;
-    }
-
-    body {
-        width: 75%;
-        float: left;
-        display: flex;
-        flex-basis: 600px;
-        flex-shrink: 2;
-    }
-
-    div {
-        width: 50%;
-        float: left;
-        display: flex;
-        flex-basis: 300px;
-        flex-shrink: 2;
-    }
-} */
